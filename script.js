@@ -9,7 +9,7 @@ let password=document.getElementById("password").value;
         message.innerText="Login successfull"
         message.style.color="green"
     }else{
-         message.innerText="name or password error"
+         message.innerText="Name or Password error"
         message.style.color="red"
     }
 })
